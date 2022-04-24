@@ -33,13 +33,13 @@
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.monthCalendar2 = new System.Windows.Forms.MonthCalendar();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.Monday = new System.Windows.Forms.Button();
+            this.Tuesday = new System.Windows.Forms.Button();
+            this.Wednesday = new System.Windows.Forms.Button();
+            this.Thursday = new System.Windows.Forms.Button();
+            this.Friday = new System.Windows.Forms.Button();
+            this.Saturday = new System.Windows.Forms.Button();
+            this.Sunday = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -60,7 +60,7 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(254, 23);
             this.comboBox2.TabIndex = 1;
-             // 
+            // 
             // monthCalendar1
             // 
             this.monthCalendar1.Location = new System.Drawing.Point(319, 239);
@@ -84,78 +84,78 @@
             this.listBox1.Size = new System.Drawing.Size(223, 379);
             this.listBox1.TabIndex = 4;
             // 
-            // button1
+            // Monday
             // 
-            this.button1.Location = new System.Drawing.Point(-10, 22);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Monday.Location = new System.Drawing.Point(-10, 22);
+            this.Monday.Name = "Monday";
+            this.Monday.Size = new System.Drawing.Size(75, 23);
+            this.Monday.TabIndex = 5;
+            this.Monday.Text = "Pazartesi";
+            this.Monday.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // Tuesday
             // 
-            this.button2.Location = new System.Drawing.Point(86, 22);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Tuesday.Location = new System.Drawing.Point(86, 22);
+            this.Tuesday.Name = "Tuesday";
+            this.Tuesday.Size = new System.Drawing.Size(75, 23);
+            this.Tuesday.TabIndex = 6;
+            this.Tuesday.Text = "Salı";
+            this.Tuesday.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // Wednesday
             // 
-            this.button3.Location = new System.Drawing.Point(183, 22);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Wednesday.Location = new System.Drawing.Point(183, 22);
+            this.Wednesday.Name = "Wednesday";
+            this.Wednesday.Size = new System.Drawing.Size(75, 23);
+            this.Wednesday.TabIndex = 7;
+            this.Wednesday.Text = "Çarşamba";
+            this.Wednesday.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // Thursday
             // 
-            this.button4.Location = new System.Drawing.Point(34, 63);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.Thursday.Location = new System.Drawing.Point(34, 63);
+            this.Thursday.Name = "Thursday";
+            this.Thursday.Size = new System.Drawing.Size(75, 23);
+            this.Thursday.TabIndex = 8;
+            this.Thursday.Text = "Perşembe";
+            this.Thursday.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // Friday
             // 
-            this.button5.Location = new System.Drawing.Point(136, 63);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.Friday.Location = new System.Drawing.Point(136, 63);
+            this.Friday.Name = "Friday";
+            this.Friday.Size = new System.Drawing.Size(75, 23);
+            this.Friday.TabIndex = 9;
+            this.Friday.Text = "Cuma";
+            this.Friday.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // Saturday
             // 
-            this.button6.Location = new System.Drawing.Point(-12, 105);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.Saturday.Location = new System.Drawing.Point(-12, 105);
+            this.Saturday.Name = "Saturday";
+            this.Saturday.Size = new System.Drawing.Size(75, 23);
+            this.Saturday.TabIndex = 10;
+            this.Saturday.Text = "Cumartesi";
+            this.Saturday.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // Sunday
             // 
-            this.button7.Location = new System.Drawing.Point(181, 105);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 11;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.Sunday.Location = new System.Drawing.Point(181, 105);
+            this.Sunday.Name = "Sunday";
+            this.Sunday.Size = new System.Drawing.Size(75, 23);
+            this.Sunday.TabIndex = 11;
+            this.Sunday.Text = "Pazar";
+            this.Sunday.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button7);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.Sunday);
+            this.groupBox1.Controls.Add(this.Thursday);
+            this.groupBox1.Controls.Add(this.Monday);
+            this.groupBox1.Controls.Add(this.Wednesday);
+            this.groupBox1.Controls.Add(this.Friday);
+            this.groupBox1.Controls.Add(this.Saturday);
+            this.groupBox1.Controls.Add(this.Tuesday);
             this.groupBox1.Location = new System.Drawing.Point(21, 203);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(262, 173);
@@ -188,13 +188,13 @@
         private MonthCalendar monthCalendar1;
         private MonthCalendar monthCalendar2;
         private ListBox listBox1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
+        private Button Monday;
+        private Button Tuesday;
+        private Button Wednesday;
+        private Button Thursday;
+        private Button Friday;
+        private Button Saturday;
+        private Button Sunday;
         private GroupBox groupBox1;
     }
 }
